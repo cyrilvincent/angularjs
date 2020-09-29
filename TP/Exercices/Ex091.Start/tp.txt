@@ -1,0 +1,5 @@
+jQuery
+1- Ajouter jQuery et le lier dans index.html (doit être placé avant bootstrap)
+2- Vérifier que l'erreur du bouton en mode téléphone a disparue
+3- Créer et lier app.jq.js
+4- A l'aide de mouseenter et mouseleave changer la couleur de fond du thumb sur lequel la souris passe

@@ -1,0 +1,10 @@
+Moteur de recherche
+1- Dans <div class="col-md-2"></div> remplacer le texte par Search: <input/>
+2- Ajouter Sort by: <select></select>
+3- Dans le select ajouter <option value="name">Alphabetical</option> et <option value="age">Newest</option>
+4- Dans le contrôleur PhoneListController ajouter le scope orderProp = 'age' signifiant que le tri par défaut est  age
+5- Mettre à jour le select pour qu'il se bind sur le modèle orderProp
+6- Dans index.html ajouter le filtre de tri 
+7- Tester
+8- Créer le scope query = '' qui contient la requête
+9- Lier et filtrer par query

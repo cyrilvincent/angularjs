@@ -1,0 +1,21 @@
+Routing
+1- Copier et examiner le fichier controllers.js
+2- Couper-coller depuis app.js les deux contrôleurs ainsi que les 2 variables JSON
+3- Il ne reste que la définition du module dans app.js
+4- Copier angular-route.js
+5- Dans le module PhonecatApp ajouter une dépendance à ngRoute et à PhonecatControllers
+6- Dans app.js ajouter le code de la route depuis le fichier app.js.txt
+7- Créer un répertoire views à la racine du projet
+8- Déplacer index.html, phone.html et phoneform.html dans views
+9- Renommer index.html en phones.html
+10- Copier template.html à la racine du projet et le renommer index.html, examiner ce fichier qui est un template de page
+11- Dans phones.html enlever les balises encapsulant <div class="container-fluid"> c'est à dire tout effacer de <html> à <br/> puis les balises de fin de page
+12- Dans phone.html enlever les balises encapsulant <div ng-controller="PhoneController as c">
+13- Idem pour phoneform.html
+14- Tester
+15- Dans phones.html modifier l'hyperlien vers phone.html et ajouter l'id dans l'URL
+16- Dans phone.html modifier l'hyperlien vers phoneform.html et ajouter l'id dans l'URL
+17- Ajouter la vue, la route et le contrôleur pour about.html qui affiche un texte A propos
+18- Le projet ne marche plus an standalone à cause d'une requête XSS hors protocole HTTP
+19- Démarrer chromeNoSecurity.bat pour tester le projet
+20- Bonus : Tester depuis un serveur web

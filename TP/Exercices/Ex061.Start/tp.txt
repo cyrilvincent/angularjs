@@ -1,0 +1,19 @@
+Détails
+1- Copier le contenu du JSON nexus-s.json dans la variable nexus de app.js et examiner le JSON
+2- Copier phone.html et examiner le fichier
+3- Tester
+4- Copier filters.js et examiner le fichier : ce script ajoute un filtre checkmark qui permet d'afficher un boolean en une checkmark V ou X
+5- Ajouter le filtre checkmark chaque fois qu'un booléen est affiché
+6- Ajouter la dépendance au module phonecatFilters dans le module PhonecatApp
+7- Tester
+8- Sous <dt>Availability</dt> créer une balise <dd></dd> qui boucle sur toutes les availability
+9- Idem pour <dt>Dimensions</dt>
+10- Nous allons mettre les images du téléphone en onglet
+11- Dans <ul class="phone-thumbs"></ul> créer un <li></li> qui boucle et affiche les phone.images
+12- Tester
+13- Nous allons mettre l'image cliquée comme image principale
+14- Dans PhoneController créer une variable this.mainImageUrl = this.phone.images[0] pour que l'image par défaut soit la première image
+15- Dans PhoneController créer une fonction setImage pour sélectionner l'image cliquée
+16- Appeler setImage quand on clique sur une des images
+17- Dans <div class="phone-images"></div> afficher l'image sélectionnée
+

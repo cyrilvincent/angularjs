@@ -1,0 +1,16 @@
+Services
+1- Copier le répertoire js et faire un lien sur angular-resource.js
+2- Examiner js/services.js
+3- Dans AboutController créer un IoD sur Counter et afficher le compteur à l'écran
+4- Ajouter la dépendance à PhonecatServices dans app.js et index.html
+5- Tester
+6- Créer un service de nom Phone qui contient la ressource 'phones/:phoneId.json'
+7- Surcharger la méthode query  avec phoneId qui a pour valeur par défaut phones
+8- Il est inutile de créer les méthode get, put, post et delete elles sont créées par défaut
+9- Enlever dans les contrôleurs toutes dépendances à $http et remplacées les par le service Phone
+10- Tester
+11- Créer le service Basket encapsulant basket
+12- Dans PhoneController créer la méthode addToBasket(phone)
+13- Dans la vue phone ajouter un bouton Add to Basket qui ajouter le téléphone au panier et affiche une boite d'alerte avec le nombre de téléphone dans le panier
+
+

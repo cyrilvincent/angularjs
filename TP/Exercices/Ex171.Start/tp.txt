@@ -1,0 +1,65 @@
+Karma
+1- Installer node.js
+2- Ouvrir une console et aller dans le répertoire Ex161.Start
+3- Taper npm install karma --save-dev
+4- Installer les dépendances : npm install karma-jasmine karma-chrome-launcher angular angular-mocks --save-dev
+5- Taper npm install -g karma-cli pour avoir accès à Karma depuis tous les répertoires
+6- Taper karma pour s'assurer que karma est installé
+7- Création du ficher de configuration : taper karma init
+8- 1ère question : choisir jasmine
+9- 2ème question : no
+10- 3ème question : phantomjs (Chrome est une possibilité)
+11- 4ème question : tests/*Test.js
+12- 5ème question : vide
+13- 6ème question : yes
+14- Examiner le fichier générer
+15- Créer le répertoire tests
+17- Examiner test.bat et taper test.bat : il a exécuté 0 tests sur 0
+18- Créer le fichier de test AngularTest.js
+19- Ajouter le code suivant
+describe('FirstTest', function(){
+  it('1 + 1', function() {
+    var i = 1 + 1;
+    expect(i).toBe(2);
+  });
+});
+20- Taper test.bat, vérifier que 1 tests sur 1 est passé et que le code de retour est 0
+21- Créer volontairement une erreur dans le test (.toBe(3)) et vérifier que le test échoue
+22- Dans karma.conf.js modifier files comme suit :
+files: [
+	  'node_modules/angular/angular.js',
+      'js/app.js',
+      'js/controllers.js',
+	  'node_modules/angular-mocks/angular-mocks.js',
+      'tests/*Test.js'
+    ],
+23- Ajouter le test suivant :
+describe('AboutController', function(){
+	beforeEach(module('PhonecatControllers'));
+	var c;
+	beforeEach(inject(function ($controller) {
+		c = $controller('AboutController');
+	}));
+	it('AboutController', function() {
+		expect(c.email).toBe('contact@cyrilvincent.com');
+	});
+});
+23- Démarrer testserver.bat et vérifier dans la console que les tests passent
+24- Ajouter le test suivant :
+describe('PhoneListController', function(){
+	beforeEach(module('PhonecatControllers'));
+	var c;
+	var $http;
+	beforeEach(inject(function ($controller, $httpBackend) {
+		c = $controller('PhoneListController');
+		$http = $httpBackend;
+		$http.when('GET', 'phones/phones.json').respond(200,phonesDB);
+	}));
+	it('PhoneListController', function() {
+		expect(c.orderProp).toBe('age');
+		$http.flush();
+		expect(c.phones.length).toBe(20);
+
+	});
+});
+var phonesDB = [ ...] // Mettre le contenu de phones.json

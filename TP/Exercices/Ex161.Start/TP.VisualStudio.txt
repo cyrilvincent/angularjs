@@ -1,0 +1,10 @@
+Service REST
+1- Dans Visual Studio créer un répertoire Model
+2- Dans Model créer une classe Phone.cs qui respecte la signature un phone de phonelist.json à l'aide de propriété
+3- Créer la classe PhonesDB avec la méthode Sample qui renvoie une List<Phone> avec des Phone créés en dur
+3- Créer un répertoire WebAPI
+4- Dans WebAPI créer une Web API
+5- Faire une méthode GET qui appel PhonesDB.Sample
+6- Tester la WebAPI
+7- Mette à jour les service Ajax dans PhoneListController
+8- BONUS : faire de même pou PhoneController avec un service REST GET ?id

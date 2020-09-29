@@ -1,0 +1,7 @@
+Afficher un JSON avec condition
+1- Créer le contrôleur PhoneController dans une IIFE
+2- Créer la closure (scope) phone qui contient les données du Nexus
+3- Afficher phone dans le HTML grâce au template
+4- Ajouter la propriété "canPurchase" = true ou false dans le JSON
+5- Ajouter le bouton Add to basket si canPurchase = true
+

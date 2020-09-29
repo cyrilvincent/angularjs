@@ -1,0 +1,4 @@
+Animation
+1- Copier les fichiers des répertoires css et js
+2- Lier la CSS et les JS dans index.html
+3- Dans app.js ajouter la dépendance phonecatAnimations

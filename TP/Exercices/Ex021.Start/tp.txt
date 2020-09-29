@@ -1,0 +1,4 @@
+Créer un template avec expression
+1- Créer le template index.html
+2- Créer app.js avec le module PhonecatApp
+3- Créer les expressions 1+2 et Hello + World

@@ -1,0 +1,4 @@
+jQuery UI
+1- Copier le CSS et JS dans les bons répertoire et référencer les fichiers, le .js doit être avant app.jq.js
+2- Dans le contrôleur addToBasket ajouter le toast("Phone succesfully added to the basket");
+3- Tester

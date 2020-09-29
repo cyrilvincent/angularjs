@@ -1,0 +1,11 @@
+Formulaire
+1- Inspecter phoneform.html
+2- Ajouter les directives de validation
+3- Les champs obligatoires sont email et name
+4- Afficher l'état de la validation en bas de page
+5- Créer le scope email avec un email par défaut
+6- Créer la fonction postPhone qui affiche une boite d'alerte avec l'id et le nom du téléphone
+7- Tester
+8- Modifier postPhone pour afficher l'email
+9- Ajouter un lien vers phoneform.html depuis phone.html
+10- bonus : Tester Modernizr

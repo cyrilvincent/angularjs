@@ -1,0 +1,20 @@
+﻿
+    <div class="container-fluid" ng-controller="PhoneListController as c">
+        <div class="row">
+            <div class="col-md-2">
+                Search: <input ng-model="c.query">
+                Sort by:
+                <select ng-model="c.orderProp">
+                    <option value="name">Alphabetical</option>
+                    <option value="age">Newest</option>
+                </select>
+            </div>
+            <div class="col-md-10">
+                <ul class="phones">
+                    <li ng-repeat="phone in c.phones | filter:c.query | orderBy:c.orderProp" class="thumbnail phone-listing">
+                       <phone-item/>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>

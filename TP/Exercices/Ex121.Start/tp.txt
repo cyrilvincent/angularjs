@@ -1,0 +1,13 @@
+Ajax
+1- Examiner le répertoire phones
+2- Ajouter au contrôleur PhoneListController la dépendance $http
+3- Initialiser la variable c à this cette étape est obligatoire car dans la fonction $http.get le scope this va changer
+4- Initialiser this.phones = [] et effacer la variable phonesDB
+5- Effectuer une requête XHR GET vers phones/phones.json (requête en local pour le moment)
+6- En cas d'échec de la requête XHR afficher une boite d'alerte
+7- Tester
+8- Ajouter au contrôleur PhoneController les dépendances $http et $routeParams
+9- Effectuer une requête XHR
+10- Tester
+11- Enlever la variable nexus : la requête XHR étant asynchrone Angular va essayer d'affiche le téléphone, il faut réfléchir un pour contourner le problème
+12- Tester

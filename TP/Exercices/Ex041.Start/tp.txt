@@ -1,0 +1,7 @@
+Filtrer et afficher des images
+1- Copier le répertoire js qui contient les .min et .map
+2- Copier les images
+3- Afficher les images des téléphones (afficher l'image *.0.jpg)
+4- enlever provisoirement la class phones dans ul
+5- Trier les téléphones par name
+6- Tester différents filtres

@@ -1,0 +1,40 @@
+Bootstrap
+1- Copier Bootstrap (css et js)
+2- Se lier à la CSS et au JS
+3- Dans index.html ajouter au premier div la classe bootstrap class="container-fluid"
+4- Dans le 2ème div ajouter class="row"
+5- Avant le ul ajouter une colonne Boostrap <div class="col-md-2">Colonne Bootstrap Medium de taille 2</div>
+6- Encapsuler le ul par <div class="col-md-10"></div>
+7- Remettre dans ul la classe phones
+8- Ajouter l'hyperlien suivant autour de l'image <a href="phone.html" class="thumb"></a>
+9- Ajouter l'hyperlien suivant autour du nom <a href="phone.html"></a>
+10- Tester en réduisant la largeur de la fenêtre du navigateur
+11- Ajouter ceci sous la balise d'ouverture de body, le bouton avec 3 traits ne marchera pas car il manque jQuery
+<div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header inline-block">
+		<a href="index.html" class="navbar-brand">
+			<div class="hidden-xs">Google Phonecat by Cyril Vincent</div>
+			<div class="hidden-sm hidden-md hidden-lg">Phonecat</div>
+		</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button> 
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+					<li><a href="http://www.cyrilvincent.com">CVC</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
+12- Tester
+13- Fermer les balises qui ne sont pas fermées
+
+
+

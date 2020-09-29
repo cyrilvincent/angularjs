@@ -1,0 +1,13 @@
+Afficher les téléphones
+1- Copier la CSS et le JSON
+2- Créer le contrôleur PhoneListController dans le module PhonecatApp
+3- Créer en dehors de la closure la variable phonesDB qui est égale au contenu de phones.json (faire un copier-coller)
+4- Créer le scope this.phones = phonesDB
+5- Copier index.html en phone.html
+6- Dans index.html afficher tous les phones, chaque phone sera encapsulé par <li></li>, seuls name et snippet seront affichés dans un <p></p> et tous les téléphones seront encapsulés dans <div><ul></ul></div>
+7- Tester
+8- Créer un <head></head> dans index.html
+9- Dans le header faire un lien vers la CSS
+10- Dans li ajouter la classe CSS class="thumbnail phone-listing"
+11- Dans ul ajouter la classe CSS class="phones"
+12- Déplacer les <script> dans le header

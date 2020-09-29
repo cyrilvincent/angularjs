@@ -1,0 +1,15 @@
+http://localhost/ -> /css/app.css
+http://localhost/ -> /css/bootstrap.css
+http://localhost/ -> /css/animations.css
+http://localhost/ -> /js/angular.js
+http://localhost/ -> /js/jquery.min.js
+http://localhost/ -> /js/bootstrap.js
+http://localhost/ -> /js/app.js
+http://localhost/ -> /js/filters.js
+http://localhost/ -> /js/app.jq.js
+http://localhost/ -> /js/angular-animate.js
+http://localhost/ -> /js/animations.js
+http://localhost/ -> /js/controllers.js
+http://localhost/ -> /js/angular-route.js
+http://localhost/ -> /js/directives.js
+http://localhost/ -> /favicon.ico
